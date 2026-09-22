@@ -57,13 +57,21 @@ export interface GalleryItem {
   id: string;
   index: string;
   title: string;
-  category: 'EDITORIAL' | 'LIVE' | 'STUDIO' | 'ARCHIVE';
+  category: 'EDITORIAL' | 'LIVE' | 'STUDIO' | 'ARCHIVE' | 'PORTRAIT';
   year: number;
   imageUrl: string;
   aspectRatio: string;
   caption: string;
   photographer?: string;
   location?: string;
+}
+
+export interface TypeBeatItem {
+  id: string;
+  title: string;
+  subtitle: string;
+  tag: string;
+  videoSrc: string;
 }
 
 export interface VideoItem {

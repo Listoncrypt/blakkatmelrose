@@ -32,7 +32,7 @@ export const ARTIST_INFO = {
   socialLinks: {
     appleMusic: 'https://music.apple.com/us/artist/blakkat-melrose/1490719965',
     spotify: 'https://open.spotify.com/artist/6dtx54aW8DQrl2Qbfpp8PZ',
-    soundcloud: 'https://soundcloud.com/hellothematic/sets/discover-blakkat-melrose',
+    soundcloud: 'https://soundcloud.com/blakkat206',
     instagram: 'https://www.instagram.com/blakkat206/'
   }
 };
